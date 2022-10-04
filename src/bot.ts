@@ -42,9 +42,11 @@ export class OnlyBotThree {
         });
 
         const set = new Point3Set(groups.flatMap((group) => group.voxels));
-        this.meshes = groups.map((group) => ({
-            material: group.material,
-            geometry: createOnlyBotGroupedMaterialGeometry(this.min, this.max, set, group.voxels),
-        }));
+        this.meshes = groups
+            .filter((group) => group.voxels.length > 0)
+            .map((group) => ({
+                material: group.material,
+                geometry: createOnlyBotGroupedMaterialGeometry(this.min, this.max, set, group.voxels),
+            }));
     }
 }
