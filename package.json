@@ -1,6 +1,6 @@
 {
   "name": "onlybots-three",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Anima Virtuality, Inc.",
   "license": "MIT",
   "description": "THREE.js helpers for OnlyBots",
