@@ -1,5 +1,5 @@
 import { BoxGeometry, BufferGeometry } from 'three';
-import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils';
+import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { Point3, Point3Set } from '@animavirtuality/onlybots-core';
 import { OnlyBotGroupedMaterial } from '@/bot';
 
