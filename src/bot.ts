@@ -20,8 +20,9 @@ export const formatOnlyBotForThree = (bot: OnlyBot): OnlyBotThree => {
     const { min, max } = calculateVoxelBounds(voxels);
     const center = new Point3((max.x + min.x) / 2, (max.y + min.y) / 2, (max.z + min.z) / 2);
 
-    min.z = negative(min.z);
-    max.z = negative(max.z);
+    const negativeMinZ = negative(min.z);
+    min.z = negative(max.z);
+    max.z = negativeMinZ;
     center.z = negative(center.z);
 
     const groups: OnlyBotGroupedMaterial[] = bot.materials.map((material) => ({
