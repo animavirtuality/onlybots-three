@@ -33,9 +33,9 @@ const determineVisibleFaces = (voxel: Point3, min: Point3, max: Point3, set: Poi
 export const createOnlyBotGroupedMaterialGeometry = (
     min: Point3,
     max: Point3,
+    set: Point3Set,
     group: OnlyBotGroupedMaterial
 ): BufferGeometry => {
-    const set = new Point3Set(group.voxels);
     return BufferGeometryUtils.mergeBufferGeometries(
         group.voxels.map((voxel) =>
             createGeometry(voxel.x, voxel.y, voxel.z, determineVisibleFaces(voxel, min, max, set))
