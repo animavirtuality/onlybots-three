@@ -1,7 +1,6 @@
 import { BoxGeometry, BufferGeometry } from 'three';
 import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { Point3, Point3Set } from '@animavirtuality/onlybots-core';
-import { OnlyBotGroupedMaterial } from '@/bot';
 
 type VisibleFaces = [boolean, boolean, boolean, boolean, boolean, boolean]; // planes px,nx, py,ny, pz,nz
 const createGeometry = (x: number, y: number, z: number, faces: VisibleFaces): BoxGeometry => {
@@ -34,11 +33,9 @@ export const createOnlyBotGroupedMaterialGeometry = (
     min: Point3,
     max: Point3,
     set: Point3Set,
-    group: OnlyBotGroupedMaterial
+    voxels: Point3[]
 ): BufferGeometry => {
     return BufferGeometryUtils.mergeBufferGeometries(
-        group.voxels.map((voxel) =>
-            createGeometry(voxel.x, voxel.y, voxel.z, determineVisibleFaces(voxel, min, max, set))
-        )
+        voxels.map((voxel) => createGeometry(voxel.x, voxel.y, voxel.z, determineVisibleFaces(voxel, min, max, set)))
     );
 };
