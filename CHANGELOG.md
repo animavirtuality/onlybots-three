@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project (loosely) adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.2.0](https://github.com/animavirtuality/onlybots-three/compare/1.1.0...1.2.0) - October 4, 2022
 ### Updated
 * Updated three.js to `0.145.0`
 
