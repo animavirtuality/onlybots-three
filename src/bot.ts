@@ -18,8 +18,8 @@ export class OnlyBotThree {
         const voxels = bot.voxels();
         const { min: originalMin, max: originalMax } = calculateVoxelBounds(voxels);
 
-        this.min = new Point3(originalMin.x, originalMin.y, negative(originalMax.z));
-        this.max = new Point3(originalMax.x, originalMax.y, negative(originalMin.z));
+        this.min = new Point3(originalMin.x, originalMin.y, negative(originalMin.z));
+        this.max = new Point3(originalMax.x, originalMax.y, negative(originalMax.z));
         this.center = new Point3(
             (this.max.x + this.min.x) / 2,
             (this.max.y + this.min.y) / 2,

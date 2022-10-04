@@ -24,8 +24,8 @@ const determineVisibleFaces = (voxel: Point3, min: Point3, max: Point3, set: Poi
         voxel.x <= min.x || !set.has(voxel.x - 1, voxel.y, voxel.z),
         voxel.y >= max.y || !set.has(voxel.x, voxel.y + 1, voxel.z),
         voxel.y <= min.y || !set.has(voxel.x, voxel.y - 1, voxel.z),
-        voxel.z >= max.z || !set.has(voxel.x, voxel.y, voxel.z + 1),
-        voxel.z <= min.z || !set.has(voxel.x, voxel.y, voxel.z - 1),
+        voxel.z >= min.z || !set.has(voxel.x, voxel.y, voxel.z + 1),
+        voxel.z <= max.z || !set.has(voxel.x, voxel.y, voxel.z - 1),
     ];
 };
 
