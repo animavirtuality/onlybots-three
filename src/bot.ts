@@ -49,4 +49,10 @@ export class OnlyBotThree {
                 geometry: createOnlyBotGroupedMaterialGeometry(this.min, this.max, set, group.voxels),
             }));
     }
+
+    public dispose(): void {
+        this.meshes.forEach((mesh) => {
+            mesh.geometry.dispose();
+        });
+    }
 }
