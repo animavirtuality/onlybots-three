@@ -12,6 +12,7 @@ export class OnlyBotThree {
     public readonly min: Point3;
     public readonly max: Point3;
     public readonly center: Point3;
+    public readonly anchor: Point3;
     public readonly meshes: OnlyBotThreeMesh[];
 
     constructor(bot: OnlyBot) {
@@ -25,6 +26,7 @@ export class OnlyBotThree {
             (this.max.y + this.min.y) / 2,
             (this.max.z + this.min.z) / 2
         );
+        this.anchor = new Point3(bot.anchor.x, bot.anchor.y, negative(bot.anchor.z));
 
         const groups: { material: OnlyBotMaterial; voxels: Point3[] }[] = bot.materials.map((material) => ({
             material,
