@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@animavirtuality/onlybots-core': ^1.2.1
+  '@animavirtuality/onlybots-core': ^2.0.1
   '@jest/globals': ^29.1.2
   '@types/node': ^18.8.0
   '@types/three': ^0.144.0
@@ -25,7 +25,7 @@ specifiers:
   typescript: ^4.8.4
 
 dependencies:
-  '@animavirtuality/onlybots-core': 1.2.1
+  '@animavirtuality/onlybots-core': 2.0.1
   three: 0.145.0
 
 devDependencies:
@@ -60,8 +60,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.15
     dev: true
 
-  /@animavirtuality/onlybots-core/1.2.1:
-    resolution: {integrity: sha512-gfMCRUMBrdzr3smg+Hfln8VdoLiE1vcvjcGA18cSDr8kegfn8JRx6AvFSLQSm8+WGPvYJRgtBk6k/sNj3nnH3w==, tarball: download/@animavirtuality/onlybots-core/1.2.1/3cdb1db1019d07cd04e7daab50112d1f6e84d5f0}
+  /@animavirtuality/onlybots-core/2.0.1:
+    resolution: {integrity: sha512-fpWz9GAFVGUnLvcn5NIKZmIMjDkYYQVD/Tskb87lG3XlyJrqhXU5+k3/oDcI3Iyqi1r7uR0UALno1aw8/bh/ww==, tarball: download/@animavirtuality/onlybots-core/2.0.1/35a42da78f6d02465a2d42d618e3aa029c5899c9}
     engines: {node: '>=14'}
     dependencies:
       runtypes: 6.6.0
