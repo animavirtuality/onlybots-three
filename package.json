@@ -31,7 +31,7 @@
     "prepack": "npm run lint && npm run test && npm run build && mkdir -p ./dist && cp -r ./build/tsc/types ./build/tsc/esm ./build/tsc/cjs ./dist"
   },
   "dependencies": {
-    "@animavirtuality/onlybots-core": "^2.0.2",
+    "@animavirtuality/onlybots-core": "^3.0.0",
     "three": "0.145.0"
   },
   "devDependencies": {
