@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@animavirtuality/onlybots-core": "^3.0.0",
-    "three": "0.145.0"
+    "three": "0.146.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.1.2",
