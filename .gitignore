@@ -1,16 +1,27 @@
-# IDE
+### BEGIN @animavirtuality/config generated content ###
+# IDE Files
 .idea/
 .vscode/
 .history/
+xcuserdata/
 
-# OS
-.DS_Store
-.AppleDouble
-.LSOverride
-*Zone.Identifier
-
-# Project
+# Directories
+/.secret/
 /build/
 /dist/
 node_modules/
+.terraform/
+.rollup.cache/
 
+# Files
+node-config.debug.log
+tsconfig.tsbuildinfo
+
+# Mac0S Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# WSL Files
+*Zone.Identifier
+### END @animavirtuality/config generated content ###

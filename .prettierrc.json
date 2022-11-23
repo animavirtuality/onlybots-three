@@ -1,17 +1,1 @@
-{
-    "plugins": [],
-    "printWidth": 120,
-    "overrides": [
-        {
-            "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-            "options": {
-                "tabWidth": 4,
-                "semi": true,
-                "singleQuote": true,
-                "trailingComma": "es5",
-                "useTabs": false,
-                "bracketSpacing": true
-            }
-        }
-    ]
-}
+.config/.prettierrc.json

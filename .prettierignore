@@ -1,9 +1,1 @@
-node_modules/
-.husky/
-/build/
-/dist/
-
-pnpm-lock.yaml
-package-lock.json
-*.sh
-*.md
+.config/.prettierignore

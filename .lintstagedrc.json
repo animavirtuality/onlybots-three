@@ -1,5 +1,1 @@
-{
-    "!*.{js,jsx,ts,tsx}": ["prettier --ignore-unknown --write"],
-    "*.{js,jsx,ts,tsx}": ["prettier --write", "eslint"],
-    "*.{ts,tsx}": ["/bin/sh -c 'tsc --noEmit'"]
-}
+.config/.lintstagedrc.json

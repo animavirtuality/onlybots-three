@@ -1,5 +1,1 @@
-!.prettierrc.js
-
-node_modules/
-/build/
-/dist/
+.config/.eslintignore
