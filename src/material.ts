@@ -29,6 +29,7 @@ export const FALLBACK_PRESET: OnlyBotMaterialPreset = {
 
 export type DisposableMaterial = {
     material: MeshPhysicalMaterial;
+    bloom: boolean;
     dispose: () => void;
 };
 
@@ -79,6 +80,7 @@ export const createMaterialFromPreset = (
 
     return {
         material,
+        bloom: preset.bloom,
         dispose: () => {
             material.dispose();
             noiseCache.dispose(roughnessNoise);

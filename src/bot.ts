@@ -8,12 +8,15 @@ const negative = (n: number): number => (n === 0 ? 0 : -1 * n);
 export class OnlyBotThreeMesh {
     public readonly geometry: BufferGeometry;
     public readonly material: MeshPhysicalMaterial;
+    public readonly bloom: boolean;
+
     private readonly disposeMaterial: () => void;
 
-    constructor(geometry: BufferGeometry, { material, dispose: disposeMaterial }: DisposableMaterial) {
+    constructor(geometry: BufferGeometry, { material, bloom, dispose: disposeMaterial }: DisposableMaterial) {
         this.geometry = geometry;
         this.material = material;
         this.disposeMaterial = disposeMaterial;
+        this.bloom = bloom;
     }
 
     public dispose(): void {
