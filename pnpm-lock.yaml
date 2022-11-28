@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@animavirtuality/config': 2.5.0
-  '@animavirtuality/onlybots-core': ^3.0.0
+  '@animavirtuality/onlybots-core': ^4.0.0
   '@jest/globals': ^29.1.2
   '@types/node': ^18.0.6
   '@types/three': ^0.144.0
@@ -34,7 +34,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  '@animavirtuality/onlybots-core': 3.0.0
+  '@animavirtuality/onlybots-core': 4.0.0
   three: 0.146.0
 
 devDependencies:
@@ -140,8 +140,8 @@ packages:
       yaml: 2.1.2
     dev: true
 
-  /@animavirtuality/onlybots-core/3.0.0:
-    resolution: {integrity: sha512-FD1AldkQ661HE7A0HY0UyfHFPJ9XcUE3NkK27WJSTHPR2USaNME7Cr2xvobFOdY/JS8bVvhZrA9JXYx/ZXKlSg==, tarball: download/@animavirtuality/onlybots-core/3.0.0/f6cc3a8c489d4d7356ae2771ce90241a3b649b5d}
+  /@animavirtuality/onlybots-core/4.0.0:
+    resolution: {integrity: sha512-+b51pmddRmFs6ohp7mflNzU0xUXJpIico7iJJvxrDqC4jfSTlVfhn2IU+WVTjJ1UxR00k6VVTnXVhKAt8Tk8eg==, tarball: download/@animavirtuality/onlybots-core/4.0.0/9281e75cb41a4414f887674cdc10bd4c2c921f68}
     engines: {node: '>=14'}
     dependencies:
       runtypes: 6.6.0
