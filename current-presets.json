@@ -1,0 +1,310 @@
+[
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.8,
+        "specularIntensity": 0,
+        "roughness": 0.5,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.15,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "metalness": 0.12,
+        "clearcoat": 0.5,
+        "clearcoatRoughness": 0.2
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 1,
+        "specularIntensity": 0,
+        "roughness": 0.18,
+        "roughnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 512,
+            "brightness": 0.5,
+            "strength": 0.4,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "metalness": 0.15,
+        "clearcoat": 1,
+        "clearcoatRoughness": 0.8
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.8,
+        "specularIntensity": 0,
+        "roughness": 1,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 12,
+            "brightness": 1,
+            "strength": 1,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "metalness": 0.12,
+        "clearcoat": 1,
+        "clearcoatNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 8,
+            "brightness": 1,
+            "strength": 0.13,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "clearcoatRoughness": 0
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.8,
+        "specularIntensity": 0,
+        "roughness": 0.5,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 12,
+            "brightness": 0.7,
+            "strength": 0.15,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "metalness": 0.15,
+        "clearcoat": 0.1,
+        "clearcoatNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 8,
+            "brightness": 1,
+            "strength": 0.8,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "clearcoatRoughness": 1,
+        "clearcoatRoughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 0.31,
+            "strength": 1,
+            "repeat": 8,
+            "pixelated": false
+        }
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.9,
+        "specularIntensity": 0,
+        "roughness": 0.51,
+        "metalness": 1,
+        "metalnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 12,
+            "brightness": 1,
+            "strength": 0.5,
+            "repeat": 4,
+            "pixelated": true
+        },
+        "clearcoat": 1,
+        "clearcoatNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 8,
+            "brightness": 1,
+            "strength": 1,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "clearcoatRoughness": 0.5
+    },
+    {
+        "bloom": true,
+        "emissive": 0,
+        "environmentIntensity": 0.8,
+        "specularIntensity": 0,
+        "roughness": 0.5,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.15,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "metalness": 0.12,
+        "clearcoat": 0.5,
+        "clearcoatRoughness": 0.2
+    },
+    {
+        "bloom": true,
+        "emissive": 0.02,
+        "environmentIntensity": 0.5,
+        "specularIntensity": 1,
+        "roughness": 0,
+        "metalness": 1,
+        "metalnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.28,
+            "repeat": 4,
+            "pixelated": false
+        },
+        "clearcoat": 1,
+        "clearcoatNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 1,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "clearcoatRoughness": 0.97
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.84,
+        "specularIntensity": 0,
+        "roughness": 1,
+        "roughnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 8,
+            "brightness": 1,
+            "strength": 1,
+            "repeat": 1,
+            "pixelated": false
+        },
+        "metalness": 0.15,
+        "clearcoat": 0,
+        "clearcoatRoughness": 0
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.88,
+        "specularIntensity": 0,
+        "roughness": 0.1,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.4,
+            "repeat": 16,
+            "pixelated": false
+        },
+        "metalness": 1,
+        "clearcoat": 1,
+        "clearcoatNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 512,
+            "brightness": 0.5,
+            "strength": 1,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "clearcoatRoughness": 0.1
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.8,
+        "specularIntensity": 0,
+        "roughness": 1,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.5,
+            "repeat": 4,
+            "pixelated": false
+        },
+        "metalness": 0.1,
+        "clearcoat": 0.2,
+        "clearcoatRoughness": 0.5
+    },
+    {
+        "bloom": true,
+        "emissive": 0,
+        "environmentIntensity": 0.5,
+        "specularIntensity": 0,
+        "roughness": 0.5,
+        "roughnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 12,
+            "brightness": 1,
+            "strength": 1,
+            "repeat": 1,
+            "pixelated": false
+        },
+        "metalness": 0.8,
+        "clearcoat": 0,
+        "clearcoatRoughness": 0
+    },
+    {
+        "bloom": false,
+        "emissive": 0.1,
+        "environmentIntensity": 0.9,
+        "specularIntensity": 1,
+        "roughness": 0.34,
+        "roughnessNoise": {
+            "type": "RANDOM_BINARY",
+            "resolution": 512,
+            "brightness": 0.68,
+            "strength": 0.5,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "metalness": 0.9,
+        "clearcoat": 0.4,
+        "clearcoatRoughness": 0
+    },
+    {
+        "bloom": true,
+        "emissive": 0,
+        "environmentIntensity": 0.5,
+        "specularIntensity": 0,
+        "roughness": 0.3,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 48,
+            "brightness": 0.6,
+            "strength": 0.76,
+            "repeat": 1,
+            "pixelated": true
+        },
+        "metalness": 1,
+        "clearcoat": 0.5,
+        "clearcoatRoughness": 0.27,
+        "clearcoatRoughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 0.5,
+            "strength": 1,
+            "repeat": 4,
+            "pixelated": false
+        }
+    },
+    {
+        "bloom": false,
+        "emissive": 0,
+        "environmentIntensity": 0.88,
+        "specularIntensity": 0,
+        "roughness": 0.25,
+        "roughnessNoise": {
+            "type": "RANDOM_GRAYSCALE",
+            "resolution": 512,
+            "brightness": 1,
+            "strength": 0.4,
+            "repeat": 8,
+            "pixelated": false
+        },
+        "metalness": 1,
+        "clearcoat": 0,
+        "clearcoatRoughness": 0
+    }
+]
