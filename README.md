@@ -1,14 +1,23 @@
 # Onlybots THREE.js
 
 THREE.js helpers for Onlybots, built on [onlybots-core](https://github.com/animavirtuality/onlybots-core).
+This module can be used in vanilla THREE.js or @react-three/fiber.
+
+<!-- toc -->
+
+- [Usage](#usage)
+- [Reference](#reference)
+  * [`OnlyBotThree`](#onlybotthree)
+  * [`OnlyBotThreeMesh`](#onlybotthreemesh)
+  * [`OnlyBotMaterialPreset`](#onlybotmaterialpreset)
+
+<!-- tocstop -->
 
 ## Usage
 
 ```
 npm i @anima-virtuality/onlybots-three
 ```
-
-This module can be used in vanilla THREE.js or @react-three/fiber.
 
 ## Reference
 
