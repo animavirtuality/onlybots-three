@@ -1,6 +1,6 @@
 import { Box3, BoxGeometry, BufferGeometry, Float32BufferAttribute, Matrix4, Vector2, Vector3 } from 'three';
 import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
-import { Point3, Point3Set } from '@animavirtuality/onlybots-core';
+import { Point3, Point3Set } from '@anima-virtuality/onlybots-core';
 
 const makeUVs = (
     transformMatrix: Matrix4,

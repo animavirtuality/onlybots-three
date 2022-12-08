@@ -1,5 +1,5 @@
 import { BufferGeometry, MeshPhysicalMaterial } from 'three';
-import { calculateVoxelBounds, OnlyBot, OnlyBotMaterial, Point3, Point3Set } from '@animavirtuality/onlybots-core';
+import { calculateVoxelBounds, OnlyBot, OnlyBotMaterial, Point3, Point3Set } from '@anima-virtuality/onlybots-core';
 import { createOnlyBotGroupedMaterialGeometry } from '@/geometry';
 import { createMaterialFromPreset, DisposableMaterial, FALLBACK_PRESET, OnlyBotMaterialPreset } from '@/material';
 
