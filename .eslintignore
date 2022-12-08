@@ -1,1 +1,5 @@
-.config/.eslintignore
+!.prettierrc.js
+
+node_modules/
+/build/
+/dist/

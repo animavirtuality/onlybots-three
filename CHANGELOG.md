@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project (loosely) adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+* Use static config
 
 ## [3.3.1](https://github.com/animavirtuality/onlybots-three/compare/3.3.0...3.3.1) - December 8, 2022
 ### Fixed
