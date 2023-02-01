@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project (loosely) adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [3.4.0](https://github.com/animavirtuality/onlybots-three/compare/3.3.2...3.4.0) - February 1, 2023
 ### Updated
 * onlybots-core
 
